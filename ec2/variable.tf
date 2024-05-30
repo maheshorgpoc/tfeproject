@@ -4,7 +4,7 @@ variable "ami-id" {
 }
 variable "instance-type" {
   type = string
-  default = "t2.small"
+  default = "t2.micro"
 }
 variable "key" {
     type = string
